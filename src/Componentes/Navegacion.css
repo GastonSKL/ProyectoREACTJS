@@ -1,0 +1,15 @@
+.nav-link {
+    margin: auto;
+
+}
+
+.nav-link-items {
+    margin-left: 50px;
+}
+
+.nav-link-items:hover {
+    transform: scale(1.4);
+    transition: all 1s ;
+    border-bottom: solid 1px white;
+
+}
