@@ -1,19 +1,24 @@
 import { render } from "@testing-library/react";
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./ItemsListContainer.css";
 
 export default function ItemCounter (props){
-    const {estado} = props;
+    const [counter, setCounter] = useState(0);
 
+    function sumar () {
+        setCounter(counter + 1)
+    };
+
+    function restar () {
+        setCounter (counter - 1)
+    };
 
         return (
-
-            <div className="counter">
-    <button className="btn btn-primary counter-item">+</button>
-    <h3 className="counter-item">{estado}</h3>
-    <button className="btn btn-primary counter-item">-</button>
-    </div>
-
+            <div className="counter" >
+                <button onClick={sumar} className="btn btn-primary counter-item" size="sm">+</button>
+                <h3 className="counter-item">{counter}</h3>
+                <button onClick={restar} className="btn btn-primary counter-item" size="sm">-</button>
+            </div>
         )
     }
     
