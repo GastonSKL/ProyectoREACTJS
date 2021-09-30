@@ -1,0 +1,10 @@
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.counter-item {
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 45px;
+}

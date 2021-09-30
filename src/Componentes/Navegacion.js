@@ -14,8 +14,8 @@ export default function Navegacion () {
       <Container>
       <Navbar.Brand href="#home">{<FaBtc/>} APP REACTJS </Navbar.Brand>
       <Nav className="me-auto nav-link">
-        <Nav.Link href="#home" className="nav-link-items">Inicio</Nav.Link>
-        <Nav.Link href="#features" className="nav-link-items">Cualidades</Nav.Link>
+        <Nav.Link href="#Carrusel" className="nav-link-items">Inicio</Nav.Link>
+        <Nav.Link href="#Productos" className="nav-link-items">Productos</Nav.Link>
         <Nav.Link href="#pricing" className="nav-link-items">Contacto</Nav.Link>
         < Carrito />
         

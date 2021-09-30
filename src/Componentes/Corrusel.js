@@ -8,7 +8,7 @@ import slider3 from "../Imagenes/slider3.jpg";
 
 export default function Slider () {
     return (
-        <Carousel variant="dark">
+        <Carousel variant="dark" id="Carrusel">
   <Carousel.Item className="item-corrusel">
     <img className="d-block w-100 h-100" src= {slider1} alt="First slide" />
     <Carousel.Caption>

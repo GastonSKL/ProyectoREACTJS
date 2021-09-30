@@ -11,10 +11,13 @@ const Productos = () => {
     ]);
 
     return (
-        <div className="productosContainer">
+        <div id="Productos" className="productosContainer container">
+            
+
             {productos.map(producto => {
                 return <Producto name={producto.name} img={producto.img} cost={producto.cost} stock={producto.stock}/>
-            })}
+            })}          
+               
         </div>
     )
 }

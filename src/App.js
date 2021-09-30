@@ -5,6 +5,7 @@ import Slider from './Componentes/Corrusel.js';
 import Productos from './Componentes/Productos.js';
 import './Componentes/Global.css';
 import Producto from './Componentes/Producto.js';
+import ItemsListContainer from './Componentes/ItemsListContainer.js';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       
       < Navegacion />
       < Slider />
-      < Productos />
+      <Productos />
+      
     </div>
   );
 }
