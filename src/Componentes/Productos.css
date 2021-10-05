@@ -1,6 +1,9 @@
 .productosContainer {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 600px   );
+    margin-top: 30px;
+    gap: 2em;
+    
 
 }

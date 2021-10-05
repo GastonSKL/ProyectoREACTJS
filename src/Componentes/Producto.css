@@ -1,3 +1,7 @@
 .cardItemBody{
     background-color: lightgray;
 }
+
+.item {
+    height: 100px;
+}

@@ -4,16 +4,16 @@ import "./Counter.css";
 import Producto from './Producto';
 import Productos from "./Productos";
 
-export default function Counter (props){
+export default function Counter ({stock}){
     const [counter, setCounter] = useState(0);
 
 
-    function sumar (props) {
-        setCounter(counter + 1)
+    function sumar () {
+        if(counter < stock) {setCounter (counter + 1)} else {alert('Limite de stock!')}
     };
 
     function restar () {
-         if (counter > 0) {setCounter (counter - 1)}
+         if (counter > 0) {setCounter (counter - 1)} else {alert('Limite 0!')}
     };
 
         return (
